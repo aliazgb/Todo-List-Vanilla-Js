@@ -6,3 +6,6 @@ A responsive web app with a live clock and a to-do list feature. Users can add, 
 - JavaScript
 - CSS
 - localStorage
+
+## Live Demo
+Check out the live demo [here](https://todo-list-vanilla-js-39ex.vercel.app/)
