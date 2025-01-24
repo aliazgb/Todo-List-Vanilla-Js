@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="allcont">
+      <div class="modul disp">
+        <div class="window">
+          <div class="modul-close"><i class="fa-solid fa-xmark close"></i></div>
+          <div class="modul-title"><p class="modul-header">Edit</p></div>
+          <div class="modul-inp"><input type="text" class="ali" /></div>
+          <div class="modul-btn"><button class="btn-ok">ok</button></div>
+        </div>
+      </div>
+      <div class="watch-container"></div>
+      <div class="header">
+        <h1>Todo List</h1>
+      </div>
+
+      <div class="container">
+        <div class="form">
+          <form class="todo-form">
+            <input type="text" class="inp" placeholder="What should you do?" />
+            <button class="btn" type="submit">
+              <i class="fa-sharp fa-solid fa-plus"></i>
+            </button>
+          </form>
+        </div>
+        <div class="opsh">
+          <select class="opt">
+            <optgroup>
+              <option value="all">All</option>
+              <option value="compelete">Compelete</option>
+              <option value="uncompelete">Uncompelete</option>
+            </optgroup>
+          </select>
+        </div>
+      </div>
+      <div class="ul">
+        <ul class="yoal"></ul>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
